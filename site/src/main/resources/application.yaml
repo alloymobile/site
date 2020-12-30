@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    show-sql: true
+  datasource:
+    url: jdbc:sqlserver://alloymobile.database.windows.net:1433;database=site-db;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: alloymobile-admin@alloymobile
+    password: Happy2020
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+server:
+  port: 8888
